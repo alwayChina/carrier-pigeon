@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<root>
+    <info>
+        <myEmailAccount>test@qq.com</myEmailAccount>
+        <myEmailPassword>test</myEmailPassword>
+        <myEmailSMTPHost>smtp.qq.com</myEmailSMTPHost>
+    </info>
+    <config>
+        <mailTemplatePath>mailTemplate/mail.html</mailTemplatePath>
+        <mailAttributePath>config/mailAttribute.xml</mailAttributePath>
+        <matchRule>
+            <prefix>![{</prefix>
+            <suffix>}]</suffix>
+        </matchRule>
+    </config>
+</root>
